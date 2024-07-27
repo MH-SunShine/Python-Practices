@@ -6,6 +6,6 @@ while True:
         print(n1, "/", n2, "=", n1/n2)
         break
     except ValueError as value_exception:
-        print("invalid error ! enter a number")
+        print("invalid value ! enter a number")
     except ZeroDivisionError as zero_exception:
         print("don't divide by zero !")
